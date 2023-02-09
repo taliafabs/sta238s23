@@ -1,7 +1,7 @@
 import statistics
 from cmath import sqrt
 from scipy.stats import sem
-
+import matplotlib.pyplot as plt
 sample = [91, 80, 99, 110, 95, 106, 78, 121,
           106, 100, 97, 82, 100, 83, 115, 104]
 
