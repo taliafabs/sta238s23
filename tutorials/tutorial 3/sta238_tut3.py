@@ -18,10 +18,14 @@ data = [.83, .88, .88, 1.04, 1.09, 1.12, 1.31, 1.48,
 mu = statistics.mean(data)
 n = len(data)
 s = statistics.stdev(data)
+S2 = statistics.variance(data, mu)
 se = s / (sqrt(n))
 
 print("part i")
 print("sample mean: ", mu)
+
+print("part ii")
+print("sample variance: ", S2)
 print("sample standard deviation: ", s)
 print("square error: ", se)
 

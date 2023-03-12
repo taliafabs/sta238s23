@@ -29,3 +29,8 @@ sample_mean = sample_mean(data)
 S2 = sample_variance(data, sample_mean)
 print(S2)
 
+# question 1 part 2
+sample_mean = statistics.mean(data)
+sample_sd = statistics.stdev(data)
+
+
